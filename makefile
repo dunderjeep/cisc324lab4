@@ -5,6 +5,9 @@ default: MainMethod.class Car.class Synch.class TimeSim.class Semaphore.class
 MainMethod.class: MainMethod.java
 	$(JCC) $(JFLAGS) MainMethod.java
 
+Lights.class: Lights.java
+	$(JCC) $(JFLAGS) Lights.java
+
 Car.class: Car.java
 	$(JCC) $(JFLAGS) Car.java
 
