@@ -58,7 +58,8 @@ public class Car extends Thread {
 		Synch.mutex.release();
 		Synch.westboundCars++;
 		Synch.mutex.release();	
-		Synch.westbound.release();
+		System.out.println("At time " + Synch.timeSim.curTime() + " Car " + myName + "is waiting at lights to go westbound.");
+		Synch.westbound.acquire();
 	}
 		
 
@@ -89,7 +90,9 @@ public class Car extends Thread {
 		Synch.mutex.acquire();
 		Synch.eastboundCars++;
 		Synch.mutex.release();	
+		System.out.println("At time " + Synch.timeSim.curTime() + " Car " + myName + "is waiting at lights to go eastbound.");
 		Synch.eastbound.acquire();
+		
 	}
 		
 

@@ -47,6 +47,9 @@ public class MainMethod {
 	
 	Synch.westboundCars = 0;
 
+	Lights S = new Lights();
+	
+	
     // Create several instances of Car threads
     Car C;  // C can hold an instance of class Car
 
@@ -54,6 +57,7 @@ public class MainMethod {
       C = new Car(i);
       C.start();
     }
+	S.changeLights();
 
     System.out.println("This is main speaking");
   }  // end of "main"
