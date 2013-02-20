@@ -21,13 +21,13 @@ public class Synch {
 	
 	public static Semaphore westbound;
 
-	public boolean eastboundLight;
+	public static boolean eastboundLight;
 
-	public boolean westboundLight;
+	public static boolean westboundLight;
 
-	public int eastboundCars = 0;
+	public static int eastboundCars = 0;
 	
-	public int westboundCars = 0;	
+	public static int westboundCars = 0;	
 
     public static int debug;  // set this to 1 or 2 to get extra output for debugging TimeSim.java
 

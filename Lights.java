@@ -1,40 +1,28 @@
 public class Lights extends Thread {
 
-	Synch synch;
-	Synch.eastboundLight = true;
-	Synch.westboundLight = false;
 	int q = 100;
 	int t = 150;
-	Synch.eastboundCars = 0;
-	Synch.westboundCars = 0;
-	Synch.mutex = new Semaphore(1, true);
-	Synch.eastbound = new Semaphore(1, true);
-	Synch.westbound = new Semaphore(1, true);	
 	
-	public Lights(int myName) {	
-		synch = new Synch();	
-		synch.timeSim.threadStart();	
+	public Lights() {	
+
+		Synch.timeSim.threadStart();	
 		changeLights();
 	}
 
-	public boolean getEastboundLights () {
-		return eastboundLights;
-	}
-
-	public boolean getWestboundLights() {
-		return westboundLights;
-	}
-
-	private changeLights () {
+	private static changeLights () {
 		while (true) {
-			synch.eastboundLights = true;
-			synch.westboundLights = false;
-			synch.timeSim.doSleep(1, t);
-			synch.eastboundLights = false;
-			synch.timeSim.doSleep(1,q);
-			synch.westboundLights = true;
-			synch.timeSim.doSleep(1,q);
-			synch.westboundLights = false;
+			Synch.eastboundLight = true;
+			Synch.westboundLight = false;
+			Synch.timeSim.doSleep(1, t);
+			while (Synch.eastboundCars > 0)
+				Synch.eastbound.release();
+			Synch.eastboundLight = false;
+			Synch.timeSim.doSleep(1,q);
+			Synch.westboundLight = true;
+			while (Synch.westboundCars > 0)
+				Synch.westbound.release();
+			Synch.timeSim.doSleep(1,q);
+			Synch.westboundLight = false;
 		}				
 	}
 }
