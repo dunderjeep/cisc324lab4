@@ -1,12 +1,19 @@
 public class Lights extends Thread {
-	int myName;
-	boolean eastboundLights = true;
-	boolean westboundLights = false;
+
+	Synch synch;
+	Synch.eastboundLights = true;
+	Synch.westboundLights = false;
 	int q = 100;
 	int t = 150;
+	Synch.eastboundCars = 0;
+	Synch.westboundCars = 0;
+	Synch.mutex = new Semaphore(1, true);
+	Synch.eastboundSem = new Semaphore(1, true);
+	Synch.westboundSem = new Semaphore(1, true);	
 	
-	public Lights(int myName) {		
-		Synch.timeSim.threadStart();	
+	public Lights(int myName) {	
+		synch = new Synch();	
+		synch.timeSim.threadStart();	
 		changeLights();
 	}
 
@@ -20,14 +27,14 @@ public class Lights extends Thread {
 
 	private changeLights () {
 		while (true) {
-			eastboundLights = true;
-			westboundLights = false;
-			Synch.timeSim.doSleep(1, t);
-			eastboundLights = false;
-			Synch.timeSim.doSleep(1,q);
-			westboundLights = true;
-			Synch.timeSim.doSleep(1,q);
-			westboundLights = false;
+			synch.eastboundLights = true;
+			synch.westboundLights = false;
+			synch.timeSim.doSleep(1, t);
+			synch.eastboundLights = false;
+			synch.timeSim.doSleep(1,q);
+			synch.westboundLights = true;
+			synch.timeSim.doSleep(1,q);
+			synch.westboundLights = false;
 		}				
 	}
 }

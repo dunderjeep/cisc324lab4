@@ -15,9 +15,19 @@ public class Synch {
 //
 // Which variables/semaphores you need depends on how you decide to code your solution.
     
-    public static Semaphore mutex;   // example of a semaphore declaration; the initial value is given in MainMethod.java
+	public static Semaphore mutex;   // example of a semaphore declaration; the initial value is given in MainMethod.java
 
+	public static Semaphore eastboundSem;
+	
+	public static Semaphore westboundSem;
 
+	public boolean eastboundLights;
+
+	public boolean westboundLights;
+
+	public int eastboundCars = 0;
+	
+	public int westboundCars = 0;	
 
     public static int debug;  // set this to 1 or 2 to get extra output for debugging TimeSim.java
 
