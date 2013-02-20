@@ -1,15 +1,15 @@
 public class Lights extends Thread {
 
 	Synch synch;
-	Synch.eastboundLights = true;
-	Synch.westboundLights = false;
+	Synch.eastboundLight = true;
+	Synch.westboundLight = false;
 	int q = 100;
 	int t = 150;
 	Synch.eastboundCars = 0;
 	Synch.westboundCars = 0;
 	Synch.mutex = new Semaphore(1, true);
-	Synch.eastboundSem = new Semaphore(1, true);
-	Synch.westboundSem = new Semaphore(1, true);	
+	Synch.eastbound = new Semaphore(1, true);
+	Synch.westbound = new Semaphore(1, true);	
 	
 	public Lights(int myName) {	
 		synch = new Synch();	

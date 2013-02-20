@@ -17,13 +17,13 @@ public class Synch {
     
 	public static Semaphore mutex;   // example of a semaphore declaration; the initial value is given in MainMethod.java
 
-	public static Semaphore eastboundSem;
+	public static Semaphore eastbound;
 	
-	public static Semaphore westboundSem;
+	public static Semaphore westbound;
 
-	public boolean eastboundLights;
+	public boolean eastboundLight;
 
-	public boolean westboundLights;
+	public boolean westboundLight;
 
 	public int eastboundCars = 0;
 	

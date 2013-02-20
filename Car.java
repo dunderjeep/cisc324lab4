@@ -32,7 +32,7 @@ public class Car extends Thread {
       System.out.println("At time " + Synch.timeSim.curTime() + " Car "
           + myName + " is driving around Barriefield.");
       Synch.timeSim.doSleep(1, 500);
-
+	
       // Now cross the causeway westbound, into Kingston.  This might
       // involve some waiting (if the westbound light is red).
       System.out.println("At time " + Synch.timeSim.curTime() + " Car "
@@ -54,7 +54,13 @@ public class Car extends Thread {
 	  //     In some cases, you don't even make it across on this green; you have to 
 	  //     wait through another red cycle for the next green.
 	  // Full marks will be awarded for either of these levels of detail in the simulation.
-
+	if (!westboundLight) {
+		Aqcuire(mutex);
+		westboundCars++;
+		Release(mutex);	
+		Acquire(westbound);
+	}
+		
 
       // Now we have permission to cross the causeway.  Crossing is simulated
       // by a sleep.  The sleep time is chosen to be relatively long (compared
@@ -63,7 +69,10 @@ public class Car extends Thread {
       System.out.println("At time " + Synch.timeSim.curTime() + " Car "
           + myName + " is starting to cross westbound.");
       Synch.timeSim.doSleep(100);
-
+	
+	Acquire(mutex);
+	eastboundCars--;
+	Release(mutex);
       // Simulate driving to Tim Hortons, buying donuts, eating them, and
       // driving back to the causeway.
       System.out.println("At time " + Synch.timeSim.curTime() + " Car "
@@ -76,10 +85,21 @@ public class Car extends Thread {
 
       // *** Put synchronization code here, to make cars wait if the eastbound
       // *** light is red..
+	if (!eastboundLight) {
+		Acquire(mutex);
+		eastboundCars++;
+		Release(mutex);	
+		Aquire(eastbound);
+	}
+		
 
       System.out.println("At time " + Synch.timeSim.curTime() + " Car "
           + myName + " is starting to cross eastbound.");
       Synch.timeSim.doSleep(100);
+	
+	Acquire(mutex);
+	eastboundCars--;
+	Release(mutex);
 
     } // end of "for" loop
     System.out.println("At time " + Synch.timeSim.curTime() + " Car "
