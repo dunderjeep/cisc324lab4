@@ -1,0 +1,201 @@
+At time 0 Car 1 is driving around Barriefield.
+At time 0 Car 2 is driving around Barriefield.
+At time 0 Car 3 is driving around Barriefield.
+At time 0 Car 4 is driving around Barriefield.
+At time 0 Car 5 is driving around Barriefield.
+At time 0 Car 6 is driving around Barriefield.
+At time 0 Car 7 is driving around Barriefield.
+This is main speaking
+At time 0 Car 8 is driving around Barriefield.
+At time 57 Car 6 wants to cross westbound.
+At time 57 Car 6 is starting to cross westbound.
+At time 60 Car 7 wants to cross westbound.
+At time 60 Car 7 is starting to cross westbound.
+At time 100 Car 3 wants to cross westbound.
+At time 100 Car 3 is starting to cross westbound.
+At time 121 Car 2 wants to cross westbound.
+At time 121 Car 2 is starting to cross westbound.
+At time 147 Car 4 wants to cross westbound.
+At time 147 Car 4 is starting to cross westbound.
+At time 157 Car 6 is getting donuts at Tim Horton's.
+At time 160 Car 7 is getting donuts at Tim Horton's.
+At time 200 Car 3 is getting donuts at Tim Horton's.
+At time 221 Car 2 is getting donuts at Tim Horton's.
+At time 229 Car 5 wants to cross westbound.
+At time 229 Car 5 is starting to cross westbound.
+At time 233 Car 8 wants to cross westbound.
+At time 233 Car 8 is starting to cross westbound.
+At time 247 Car 4 is getting donuts at Tim Horton's.
+At time 250 Car 2 wants to cross eastbound.
+At time 250 Car 2 is starting to cross eastbound.
+At time 311 Car 7 wants to cross eastbound.
+At time 311 Car 7 is starting to cross eastbound.
+At time 329 Car 5 is getting donuts at Tim Horton's.
+At time 333 Car 8 is getting donuts at Tim Horton's.
+At time 350 Car 2 is driving around Barriefield.
+At time 400 Car 1 wants to cross westbound.
+At time 400 Car 1 is starting to cross westbound.
+At time 411 Car 7 is driving around Barriefield.
+At time 428 Car 5 wants to cross eastbound.
+At time 428 Car 5 is starting to cross eastbound.
+At time 452 Car 3 wants to cross eastbound.
+At time 452 Car 3 is starting to cross eastbound.
+At time 500 Car 1 is getting donuts at Tim Horton's.
+At time 524 Car 6 wants to cross eastbound.
+At time 524 Car 6 is starting to cross eastbound.
+At time 528 Car 5 is driving around Barriefield.
+At time 552 Car 3 is driving around Barriefield.
+At time 567 Car 7 wants to cross westbound.
+At time 567 Car 7 is starting to cross westbound.
+At time 591 Car 8 wants to cross eastbound.
+At time 591 Car 8 is starting to cross eastbound.
+At time 624 Car 6 is driving around Barriefield.
+At time 667 Car 7 is getting donuts at Tim Horton's.
+At time 691 Car 8 is driving around Barriefield.
+At time 692 Car 5 wants to cross westbound.
+At time 692 Car 5 is starting to cross westbound.
+At time 706 Car 2 wants to cross westbound.
+At time 706 Car 2 is starting to cross westbound.
+At time 723 Car 4 wants to cross eastbound.
+At time 723 Car 4 is starting to cross eastbound.
+At time 775 Car 1 wants to cross eastbound.
+At time 775 Car 1 is starting to cross eastbound.
+At time 792 Car 5 is getting donuts at Tim Horton's.
+At time 806 Car 2 is getting donuts at Tim Horton's.
+At time 823 Car 4 is driving around Barriefield.
+At time 842 Car 7 wants to cross eastbound.
+At time 842 Car 7 is starting to cross eastbound.
+At time 870 Car 5 wants to cross eastbound.
+At time 870 Car 5 is starting to cross eastbound.
+At time 875 Car 1 is driving around Barriefield.
+At time 876 Car 1 wants to cross westbound.
+At time 876 Car 1 is starting to cross westbound.
+At time 906 Car 2 wants to cross eastbound.
+At time 906 Car 2 is starting to cross eastbound.
+At time 942 Car 7 is driving around Barriefield.
+At time 956 Car 6 wants to cross westbound.
+At time 956 Car 6 is starting to cross westbound.
+At time 970 Car 5 is driving around Barriefield.
+At time 976 Car 1 is getting donuts at Tim Horton's.
+At time 994 Car 3 wants to cross westbound.
+At time 994 Car 3 is starting to cross westbound.
+At time 1006 Car 2 is driving around Barriefield.
+At time 1033 Car 4 wants to cross westbound.
+At time 1033 Car 4 is starting to cross westbound.
+At time 1038 Car 8 wants to cross westbound.
+At time 1038 Car 8 is starting to cross westbound.
+At time 1056 Car 6 is getting donuts at Tim Horton's.
+At time 1073 Car 6 wants to cross eastbound.
+At time 1073 Car 6 is starting to cross eastbound.
+At time 1094 Car 3 is getting donuts at Tim Horton's.
+At time 1121 Car 3 wants to cross eastbound.
+At time 1121 Car 3 is starting to cross eastbound.
+At time 1133 Car 4 is getting donuts at Tim Horton's.
+At time 1138 Car 8 is getting donuts at Tim Horton's.
+At time 1173 Car 6 is driving around Barriefield.
+At time 1221 Car 3 is driving around Barriefield.
+At time 1280 Car 5 wants to cross westbound.
+At time 1280 Car 5 is starting to cross westbound.
+At time 1314 Car 2 wants to cross westbound.
+At time 1314 Car 2 is starting to cross westbound.
+At time 1336 Car 7 wants to cross westbound.
+At time 1336 Car 7 is starting to cross westbound.
+At time 1380 Car 5 is getting donuts at Tim Horton's.
+At time 1414 Car 2 is getting donuts at Tim Horton's.
+At time 1431 Car 1 wants to cross eastbound.
+At time 1431 Car 1 is starting to cross eastbound.
+At time 1436 Car 7 is getting donuts at Tim Horton's.
+At time 1511 Car 2 wants to cross eastbound.
+At time 1511 Car 2 is starting to cross eastbound.
+At time 1514 Car 4 wants to cross eastbound.
+At time 1514 Car 4 is starting to cross eastbound.
+At time 1531 Car 1 is driving around Barriefield.
+At time 1549 Car 7 wants to cross eastbound.
+At time 1549 Car 7 is starting to cross eastbound.
+At time 1552 Car 3 wants to cross westbound.
+At time 1552 Car 3 is starting to cross westbound.
+At time 1579 Car 6 wants to cross westbound.
+At time 1579 Car 6 is starting to cross westbound.
+At time 1582 Car 8 wants to cross eastbound.
+At time 1582 Car 8 is starting to cross eastbound.
+At time 1611 Car 2 is driving around Barriefield.
+At time 1614 Car 4 is driving around Barriefield.
+At time 1649 Car 7 is driving around Barriefield.
+At time 1652 Car 3 is getting donuts at Tim Horton's.
+At time 1679 Car 6 is getting donuts at Tim Horton's.
+At time 1682 Car 8 is driving around Barriefield.
+At time 1825 Car 1 wants to cross westbound.
+At time 1825 Car 1 is starting to cross westbound.
+At time 1832 Car 5 wants to cross eastbound.
+At time 1832 Car 5 is starting to cross eastbound.
+At time 1907 Car 3 wants to cross eastbound.
+At time 1907 Car 3 is starting to cross eastbound.
+At time 1925 Car 1 is getting donuts at Tim Horton's.
+At time 1932 Car 5 is driving around Barriefield.
+At time 1988 Car 1 wants to cross eastbound.
+At time 1988 Car 1 is starting to cross eastbound.
+At time 2004 Car 6 wants to cross eastbound.
+At time 2004 Car 6 is starting to cross eastbound.
+At time 2007 Car 3 is driving around Barriefield.
+At time 2045 Car 4 wants to cross westbound.
+At time 2045 Car 4 is starting to cross westbound.
+At time 2071 Car 7 wants to cross westbound.
+At time 2071 Car 7 is starting to cross westbound.
+At time 2088 Car 1 is driving around Barriefield.
+At time 2097 Car 2 wants to cross westbound.
+At time 2097 Car 2 is starting to cross westbound.
+At time 2104 Car 6 is driving around Barriefield.
+At time 2145 Car 4 is getting donuts at Tim Horton's.
+At time 2169 Car 8 wants to cross westbound.
+At time 2169 Car 8 is starting to cross westbound.
+At time 2171 Car 7 is getting donuts at Tim Horton's.
+At time 2197 Car 2 is getting donuts at Tim Horton's.
+At time 2198 Car 3 wants to cross westbound.
+At time 2198 Car 3 is starting to cross westbound.
+At time 2211 Car 7 wants to cross eastbound.
+At time 2211 Car 7 is starting to cross eastbound.
+At time 2269 Car 8 is getting donuts at Tim Horton's.
+At time 2296 Car 6 wants to cross westbound.
+At time 2296 Car 6 is starting to cross westbound.
+At time 2298 Car 3 is getting donuts at Tim Horton's.
+At time 2311 Car 7 has finished and disappears.  Poof!
+At time 2327 Car 5 wants to cross westbound.
+At time 2327 Car 5 is starting to cross westbound.
+At time 2353 Car 1 wants to cross westbound.
+At time 2353 Car 1 is starting to cross westbound.
+At time 2396 Car 6 is getting donuts at Tim Horton's.
+At time 2427 Car 5 is getting donuts at Tim Horton's.
+At time 2453 Car 1 is getting donuts at Tim Horton's.
+At time 2511 Car 2 wants to cross eastbound.
+At time 2511 Car 2 is starting to cross eastbound.
+At time 2604 Car 4 wants to cross eastbound.
+At time 2604 Car 4 is starting to cross eastbound.
+At time 2611 Car 2 has finished and disappears.  Poof!
+At time 2621 Car 8 wants to cross eastbound.
+At time 2621 Car 8 is starting to cross eastbound.
+At time 2661 Car 3 wants to cross eastbound.
+At time 2661 Car 3 is starting to cross eastbound.
+At time 2695 Car 6 wants to cross eastbound.
+At time 2695 Car 6 is starting to cross eastbound.
+At time 2704 Car 4 is driving around Barriefield.
+At time 2721 Car 8 is driving around Barriefield.
+At time 2761 Car 3 has finished and disappears.  Poof!
+At time 2795 Car 6 has finished and disappears.  Poof!
+At time 2841 Car 8 wants to cross westbound.
+At time 2841 Car 8 is starting to cross westbound.
+At time 2868 Car 1 wants to cross eastbound.
+At time 2868 Car 1 is starting to cross eastbound.
+At time 2914 Car 5 wants to cross eastbound.
+At time 2914 Car 5 is starting to cross eastbound.
+At time 2941 Car 8 is getting donuts at Tim Horton's.
+At time 2968 Car 1 has finished and disappears.  Poof!
+At time 3014 Car 5 has finished and disappears.  Poof!
+At time 3018 Car 4 wants to cross westbound.
+At time 3018 Car 4 is starting to cross westbound.
+At time 3033 Car 8 wants to cross eastbound.
+At time 3033 Car 8 is starting to cross eastbound.
+At time 3118 Car 4 is getting donuts at Tim Horton's.
+At time 3133 Car 8 has finished and disappears.  Poof!
+At time 3392 Car 4 wants to cross eastbound.
+At time 3392 Car 4 is starting to cross eastbound.
+At time 3492 Car 4 has finished and disappears.  Poof!
