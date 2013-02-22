@@ -55,13 +55,12 @@ public class Car extends Thread {
 	  //     wait through another red cycle for the next green.
 	  // Full marks will be awarded for either of these levels of detail in the simulation.
 	if (!Synch.westboundLight) {
-		Synch.mutex.release();
+		Synch.mutex.acquire();
 		Synch.westboundCars++;
 		Synch.mutex.release();	
-		System.out.println("At time " + Synch.timeSim.curTime() + " Car " + myName + "is waiting at lights to go westbound.");
+		System.out.println("At time " + Synch.timeSim.curTime() + " Car " + myName + " is waiting at lights to go westbound.");
 		Synch.westbound.acquire();
-	}
-		
+	}		
 
       // Now we have permission to cross the causeway.  Crossing is simulated
       // by a sleep.  The sleep time is chosen to be relatively long (compared
@@ -71,9 +70,7 @@ public class Car extends Thread {
           + myName + " is starting to cross westbound.");
       Synch.timeSim.doSleep(100);
 	
-	Synch.mutex.acquire();
-	Synch.eastboundCars--;
-	Synch.mutex.release();
+	
       // Simulate driving to Tim Hortons, buying donuts, eating them, and
       // driving back to the causeway.
       System.out.println("At time " + Synch.timeSim.curTime() + " Car "
@@ -90,23 +87,21 @@ public class Car extends Thread {
 		Synch.mutex.acquire();
 		Synch.eastboundCars++;
 		Synch.mutex.release();	
-		System.out.println("At time " + Synch.timeSim.curTime() + " Car " + myName + "is waiting at lights to go eastbound.");
-		Synch.eastbound.acquire();
-		
-	}
-		
+		System.out.println("At time " + Synch.timeSim.curTime() + " Car " + myName + " is waiting at lights to go eastbound.");
+		Synch.eastbound.acquire();		
+	}	
 
       System.out.println("At time " + Synch.timeSim.curTime() + " Car "
           + myName + " is starting to cross eastbound.");
       Synch.timeSim.doSleep(100);
 	
-	Synch.mutex.acquire();
-	Synch.eastboundCars--;
-	Synch.mutex.release();
+	
 
     } // end of "for" loop
     System.out.println("At time " + Synch.timeSim.curTime() + " Car "
         + myName + " has finished and disappears.  Poof!");
+    Synch.carThreads--;
+    System.out.println("carThreads: " + Synch.carThreads);	
     Synch.timeSim.threadEnd();  // Let timeSim know that this thread
                                 // has ended.
   }  // end of "run" method

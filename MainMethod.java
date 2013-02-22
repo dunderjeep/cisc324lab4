@@ -47,6 +47,8 @@ public class MainMethod {
 	
 	Synch.westboundCars = 0;
 
+	Synch.carThreads = 0;
+
 	Lights S = new Lights();
 	
 	
@@ -55,6 +57,8 @@ public class MainMethod {
 
     for (int i=1; i<=8; i++) {
       C = new Car(i);
+      Synch.carThreads++;
+      System.out.println("carThreads: " + Synch.carThreads);
       C.start();
     }
 	S.changeLights();

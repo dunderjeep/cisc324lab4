@@ -27,7 +27,9 @@ public class Synch {
 
 	public static int eastboundCars = 0;
 	
-	public static int westboundCars = 0;	
+	public static int westboundCars = 0;
+
+	public static int carThreads = 0;	
 
     public static int debug;  // set this to 1 or 2 to get extra output for debugging TimeSim.java
 
